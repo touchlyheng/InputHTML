@@ -1,0 +1,171 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+.container {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  max-width: auto;
+}
+.cart_container {
+  width: 95%;
+  height: 85%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-rows: 100px auto;
+}
+.inner1_container {
+  width: 100%;
+  background-color: rgb(11, 68, 24);
+  display: flex;
+  justify-content: center;
+  box-shadow: 10px;
+}
+.inner2_container {
+  font-size: larger;
+
+  width: 100%;
+  background-color: white;
+}
+.inner3_container {
+  background-color: rgb(11, 68, 24);
+  display: flex;
+  margin-top: -50px;
+  justify-content: flex-end;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.mail {
+  padding: 40px;
+  margin-top: -60px;
+}
+#email {
+  width: 525px;
+  height: 25px;
+  border-radius: 4px;
+}
+#fname {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+#lname {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+  margin-right: 50px;
+}
+.pass {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -60px;
+}
+
+#pass-word {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+#confirm_pass {
+  width: 250px;
+  height: 25px;
+  border-radius: 4px;
+}
+.conff {
+  margin-left: 20px;
+}
+
+.hobbies {
+  font-size: smaller;
+  p {
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+  margin-top: -40px;
+}
+.gender_hobbies {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  margin-top: -40px;
+}
+.gender {
+  font-size: smaller;
+  p {
+    font-size: larger;
+    margin-bottom: 10px;
+  }
+  margin-top: -40px;
+}
+.source_income {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  margin-top: -40px;
+}
+.income {
+  margin-top: -20px;
+}
+#Source {
+  width: 250px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: large;
+}
+#income1 {
+  margin-top: -70px;
+}
+.income {
+  margin-right: 130px;
+}
+.upload {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.age_a {
+  margin-top: -40px;
+  margin-right: 80px;
+}
+.profile {
+  margin-top: -40px;
+}
+#age {
+  font-size: large;
+  border-radius: 5px;
+}
+.Bio {
+  padding: 40px;
+  margin-top: -20px;
+}
+#bio {
+  width: 520px;
+  height: 100px;
+}
+.but {
+  margin: 30px;
+}
+button {
+  font-size: larger;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}

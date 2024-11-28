@@ -1,0 +1,111 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  border: 1px solid white;
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  min-width: 900px;
+}
+.cart_container {
+  border: 1px solid gray;
+  width: 60%;
+  height: 95%;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
+  display: grid;
+  border-radius: 10px;
+  grid-template-rows: 80px auto;
+}
+.inner1_container {
+  border: 1px solid whitesmoke;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border-radius: 10px;
+}
+.inner2_container {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0.1px gray;
+}
+.name {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+#lname {
+  font-size: large;
+  border-radius: 7px;
+}
+#fname {
+  font-size: large;
+  border-radius: 7px;
+}
+.gender {
+  display: flex;
+  font-size: x-large;
+  padding: 30px;
+}
+.gen {
+  margin-right: 30px;
+}
+#female {
+  margin-left: 30px;
+}
+.email {
+  padding: 30px;
+  font-size: x-large;
+}
+#e_mail {
+  font-size: large;
+  border-radius: 7px;
+  width: 500px;
+}
+.phone_number {
+  padding: 30px;
+  font-size: x-large;
+}
+#phone {
+  font-size: large;
+  border-radius: 7px;
+}
+.time {
+  padding: 30px;
+  font-size: x-large;
+}
+#time_come {
+  font-size: large;
+  border-radius: 7px;
+}
+.register {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-size: x-large;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
